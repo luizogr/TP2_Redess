@@ -24,12 +24,12 @@ async def enviar_mensagens(websocket, nome):
             await websocket.close()
             break
         else:
-            await websocket.send(mensagem,nome)
+            await websocket.send(f"[{nome}]: {mensagem}")
 
 # Função principal para conectar ao servidor e iniciar as tarefas de envio e recepção de mensagens
 async def main():
     # URI do servidor WebSocket para conectar-se
-    uri = "ws://192.168.1.14:9000" # Endereço para conectar ao servidor WebSocket
+    uri = "ws://172.2.212.111:9000" # Endereço para conectar ao servidor WebSocket
     # Tenta conectar ao servidor WebSocket e iniciar as tarefas de envio e recepção de mensagens
     try:
         # Conecta ao servidor WebSocket e inicia as tarefas de envio e recepção de mensagens em paralelo usando asyncio.gather

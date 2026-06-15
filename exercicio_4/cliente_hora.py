@@ -7,7 +7,7 @@ client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # Tenta conectar ao servidor de hora e receber a mensagem com a hora atual
 try:    
     # Conecta ao servidor de hora
-    client_socket.connect(('192.168.1.14', 8000))
+    client_socket.connect(('10.2.212.11', 8000))
 
     # Aguarda a mensagem do servidor com a hora atual 
     message_server = client_socket.recv(1024)

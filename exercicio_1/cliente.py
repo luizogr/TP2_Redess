@@ -12,7 +12,7 @@ try:
     # Tenta conectar ao servidor na máquina local (127.0.0.1) porta 5000
     # 127.0.0.1 = localhost (própria máquina)
     # 5000 = porta onde o servidor está escutando
-    client_socket.connect(('127.0.0.1', 5000))
+    client_socket.connect(('10.2.212.111', 5000))
 
     # Solicita ao usuário que digite uma mensagem
     mensagem = input("Digite a mensagem ao servidor: ")

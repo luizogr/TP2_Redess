@@ -14,7 +14,7 @@ async def gestao_cliente(websocket):
             # Encaminha a mensagem para todos os outros clientes conectados
             for client in connected_clients:
                 if client != websocket:
-                    await client.send(f"{websocket.nome}: {message}")
+                    await client.send(f"[cliente]: {message}")
     except websockets.exceptions.ConnectionClosed:
         print("Cliente desconectado")
     finally:
