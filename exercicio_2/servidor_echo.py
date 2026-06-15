@@ -8,7 +8,7 @@ import socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 # Define o endereço e porta onde o servidor UDP irá escutar
-server_address = ('127.0.0.1', 6000)
+server_address = ('0.0.0.0', 6000)
 
 # Vincula o socket ao endereço e porta definidos
 # bind() para UDP é similar ao bind() em TCP, mas UDP é connectionless

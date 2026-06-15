@@ -25,7 +25,7 @@ server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 try:
     # Inicia o servidor e aguarda conexões
-    server_socket.bind(('127.0.0.1', 7000))
+    server_socket.bind(('0.0.0.0', 7000))
     server_socket.listen(2)
     print("Servidor de Chat iniciado na porta 7000. Aguardando participantes...")
 

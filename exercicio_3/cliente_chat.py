@@ -25,7 +25,7 @@ client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 try:    
     # Conecta ao servidor de chat
-    client_socket.connect(('127.0.0.1', 7000))
+    client_socket.connect(('192.168.1.14', 7000))
     print("Conectado ao servidor de chat! Aguardando o outro participante...")
 
     # Cria e inicializa a thread de recepção

@@ -1,3 +1,4 @@
+# Hudson Junior Xavier da Silva, Janaina Alves Cordeiro, Luiz Otávio Gonçalves Ribeiro, Tiago Secundo Santos
 # Importa o módulo socket para comunicação em rede
 import socket
 
@@ -9,7 +10,7 @@ try:
     # Vincula o servidor ao IP local (127.0.0.1) e porta 5000
     # O servidor agora "escuta" nesse endereço e porta
     # Qualquer cliente que tentar conectar nessa porta será aceito
-    server_socket.bind(('127.0.0.1', 5000))
+    server_socket.bind(('0.0.0.0', 5000))
 
     # Coloca o servidor em modo de escuta
     # O argumento 5 é o número máximo de conexões pendentes na fila

@@ -22,7 +22,7 @@ async def gestao_cliente(websocket):
 
 # Função principal para iniciar o servidor WebSocket
 async def main():
-    async with websockets.serve(gestao_cliente, "127.0.0.1", 9000):
+    async with websockets.serve(gestao_cliente, "0.0.0.0", 9000):
         print("Servidor de Chat WebSocket iniciado na porta 9000.")
         await asyncio.Future()  # Mantém o servidor rodando
 
