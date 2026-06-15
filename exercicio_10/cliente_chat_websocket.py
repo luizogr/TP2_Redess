@@ -24,7 +24,7 @@ async def enviar_mensagens(websocket, nome):
             await websocket.close()
             break
         else:
-            await websocket.send(mensagem)
+            await websocket.send(mensagem,nome)
 
 # Função principal para conectar ao servidor e iniciar as tarefas de envio e recepção de mensagens
 async def main():
