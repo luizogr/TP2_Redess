@@ -1,4 +1,4 @@
-# Hudson Junior, Janaina Alves, Luiz Otávio, Tiago Secundo 
+# Hudson Junior Xavier da Silva, Janaina Alves Cordeiro, Luiz Otávio Gonçalves Ribeiro, Tiago Secundo Santos
 import asyncio
 import websockets
 

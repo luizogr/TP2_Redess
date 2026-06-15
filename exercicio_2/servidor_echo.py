@@ -1,3 +1,4 @@
+# Hudson Junior Xavier da Silva, Janaina Alves Cordeiro, Luiz Otávio Gonçalves Ribeiro, Tiago Secundo Santos
 # Importa o módulo socket para comunicação em rede
 import socket
 

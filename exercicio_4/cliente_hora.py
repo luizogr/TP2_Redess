@@ -1,3 +1,4 @@
+# Hudson Junior Xavier da Silva, Janaina Alves Cordeiro, Luiz Otávio Gonçalves Ribeiro, Tiago Secundo Santos
 import socket
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

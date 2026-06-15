@@ -3,7 +3,7 @@ import socket
 
 # === CONFIGURAÇÃO DO SERVIDOR ===
 # Cria um socket TCP (SOCK_STREAM) para comunicação IPv4 (AF_INET)
-client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 try:
     # Vincula o servidor ao IP local (127.0.0.1) e porta 5000
